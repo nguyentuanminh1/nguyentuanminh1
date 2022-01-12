@@ -14,3 +14,21 @@ function allLongestStrings(inputArray) {
 }
 
 //bai 2
+var a = [60, 40, 55, 75, 64]
+
+function alternatingSums(a) {
+    var b = 0
+    var c = 0
+    for (let i = 1; i < a.length; i++) {
+        if ( i != 2) {
+            b + a[i]
+        }
+        else {
+            c + a[i]
+        }
+    }
+    return b , c
+}
+
+const e = alternatingSums(a)
+console.log(e)
